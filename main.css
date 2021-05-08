@@ -142,10 +142,33 @@ button {
     border-radius: 24px;
     background-color: inherit;
 
+    transition-duration: 0.4s;
+
 }
 
+button:hover {
+
+    background-color: #FFFFFF;
+    color: inherit;
+
+}
 
 @media (max-width: 600px) {
+    .containergral {
+        display: flex;
+
+        flex-wrap: wrap;
+
+
+        align-items: center;
+        justify-content: center;
+
+        margin: 10px;
+
+
+    }
+
+
     #OrangeSquare {
 
         height: 441px;
@@ -173,6 +196,13 @@ button {
         color: inherit;
 
         background-color: #FFFFFF;
+    }
+
+    button:hover{
+
+        background-color: inherit;
+
+        color: #FFFFFF;
     }
 
     h1 {
